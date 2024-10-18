@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { reactive, ref } from "vue";
 import { doc, updateDoc, addDoc, getDoc } from "firebase/firestore";
 import { db } from "../firebase.js";
 
